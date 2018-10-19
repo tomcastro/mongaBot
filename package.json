@@ -1,10 +1,10 @@
 {
   "name": "turri-bot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Doesn't do anything, but he's invited anyway. Loves cars.",
-  "main": "bot.js",
+  "main": "src/bot.js",
   "scripts": {
-    "start": "node bot.js"
+    "start": "node src/bot.js"
   },
   "author": "tcastrog10",
   "dependencies": {

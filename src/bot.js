@@ -116,7 +116,7 @@ bot.on("message", (user, userID, channelID, message, evt) => {
         reactToMessage(channelID, messageID);
         if (isReady) {
           isReady = false;
-          playAudio("wtf.mp3", serverID, userID);
+          playAudio("media/wtf.mp3", serverID, userID);
           isReady = true;
         }
         break;
@@ -125,7 +125,7 @@ bot.on("message", (user, userID, channelID, message, evt) => {
         reactToMessage(channelID, messageID);
         if (isReady) {
           isReady = false;
-          playAudio("wololo.mp3", serverID, userID);
+          playAudio("media/wololo.mp3", serverID, userID);
           isReady = true;
         }
         break;
@@ -134,7 +134,7 @@ bot.on("message", (user, userID, channelID, message, evt) => {
         reactToMessage(channelID, messageID);
         if (isReady) {
           isReady = false;
-          playAudio("epic_save_1.ogg", serverID, userID);
+          playAudio("media/epic_save_1.ogg", serverID, userID);
           isReady = true;
         }
         break;
@@ -143,7 +143,7 @@ bot.on("message", (user, userID, channelID, message, evt) => {
         reactToMessage(channelID, messageID);
         if (isReady) {
           isReady = false;
-          playAudio("what_a_save_1.mp3", serverID, userID);
+          playAudio("media/what_a_save_1.mp3", serverID, userID);
           isReady = true;
         }
         break;
@@ -152,7 +152,7 @@ bot.on("message", (user, userID, channelID, message, evt) => {
         reactToMessage(channelID, messageID);
         if (isReady) {
           isReady = false;
-          playAudio("martin.mp3", serverID, userID);
+          playAudio("media/martin.mp3", serverID, userID);
           isReady = true;
         }
         break;
